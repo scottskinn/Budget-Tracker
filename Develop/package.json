@@ -5,6 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon server.js",
+    "start:dev": "webpack-dev-server",
     "lite-server": "lite-server"
   },
   "repository": {
@@ -23,5 +24,8 @@
     "mongoose": "^5.5.15",
     "morgan": "^1.9.1"
   },
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "webpack-dev-server": "^4.3.0"
+  }
 }
