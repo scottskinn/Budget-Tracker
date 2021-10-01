@@ -1,4 +1,4 @@
-const { mode } = require("../webpack.config");
+// const { mode } = require("../webpack.config");
 
 const APP_PREFIX = 'Budget-Tracker-';     
 const VERSION = 'version_01';
@@ -63,6 +63,6 @@ self.addEventListener('install', function (e) {
     );
   });
 
-module.exports = {
-    mode: 'development',
-};
+// module.exports = {
+//     mode: 'development',
+// };

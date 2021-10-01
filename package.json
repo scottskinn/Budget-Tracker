@@ -1,0 +1,32 @@
+{
+  "name": "budget-tracker",
+  "version": "1.0.0",
+  "description": "![Github license](https://img.shields.io/badge/licence--blue.svg)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scottskinn/Budget-Tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottskinn/Budget-Tracker/issues"
+  },
+  "homepage": "https://github.com/scottskinn/Budget-Tracker#readme",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "mongoose": "^5.5.15",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "webpack": "^5.55.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.3.0"
+  }
+}
