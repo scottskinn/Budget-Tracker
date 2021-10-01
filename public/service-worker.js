@@ -7,7 +7,13 @@ const CACHE_NAME = APP_PREFIX + VERSION;
 
 const FILES_TO_CACHE =[
     'index.html',
+    'icons/icon-192x192.png',
+    'icons/icon-512x512.png',
+    'index.js',
     'css/style.css',
+    'idb.js',
+    'manifest.json',
+    'service-worker.js',
     'routes/api.js'
 ];
 
