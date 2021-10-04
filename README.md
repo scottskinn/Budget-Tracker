@@ -13,7 +13,7 @@
       Adding offline access and functionality
 
   ## Installation:
-      Deployed website
+      Deployed website: https://safe-reaches-40991.herokuapp.com
 
   ## Usage:
       Pics
